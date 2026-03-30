@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets / environment
+.env
+.env.*
+*.env
+
+# Walmart seller data and run artifacts
+walmart_delete_results*.csv
+walmart_delete_summary*.txt
+walmart_delete_checkpoint*.json
+cleaned_skus.csv
+bulk_sku_deletion*.xlsx
+walmart_delete_ready/
+*.log
+
+# Local exports / inputs from live seller accounts
+exports/
+input/
+output/
